@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+    <link rel="stylesheet" href="cad-pessoas.css">
+</head>
+<body>
+    
+    <h1>Cadastro de Pessoas</h1>
+    <hr>
+    <form action="./index.html" method="post">
+        <div class="infos">
+
+       <div class="info">
+       <label for="nome-completo">Nome Completo</label>
+       <input type="text" name="nome-completo" id="">
+       </div>
+
+       <div class="info">
+
+        <label for="data-nasci">Data de Nascimento</label>
+        <input type="date" name="data-nasci" id="">
+        </div>
+
+        <div class="info">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="">
+        </div>
+
+        <div class="info">
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="">
+        </div>
+
+        <div class="info">
+        <label for="endereco">Endereço</label>
+        <input type="text" name="endereco" id="">
+        </div>
+
+
+        <div class="info">
+        <label for="estado">Estado</label>
+        <select name="estado"> 
+            <option value="estado">Selecione o Estado</option> 
+            <option value="ac">Acre</option> 
+            <option value="al">Alagoas</option> 
+            <option value="am">Amazonas</option> 
+            <option value="ap">Amapá</option> 
+            <option value="ba">Bahia</option> 
+            <option value="ce">Ceará</option> 
+            <option value="df">Distrito Federal</option> 
+            <option value="es">Espírito Santo</option> 
+            <option value="go">Goiás</option> 
+            <option value="ma">Maranhão</option> 
+            <option value="mt">Mato Grosso</option> 
+            <option value="ms">Mato Grosso do Sul</option> 
+            <option value="mg">Minas Gerais</option> 
+            <option value="pa">Pará</option> 
+            <option value="pb">Paraíba</option> 
+            <option value="pr">Paraná</option> 
+            <option value="pe">Pernambuco</option> 
+            <option value="pi">Piauí</option> 
+            <option value="rj">Rio de Janeiro</option> 
+            <option value="rn">Rio Grande do Norte</option> 
+            <option value="ro">Rondônia</option> 
+            <option value="rs">Rio Grande do Sul</option> 
+            <option value="rr">Roraima</option> 
+            <option value="sc">Santa Catarina</option> 
+            <option value="se">Sergipe</option> 
+            <option value="sp">São Paulo</option> 
+            <option value="to">Tocantins</option> 
+        </select>
+        </div>
+
+        <div class="info">
+        <label for="cidades">Cidades</label>
+        <br>
+        <select name="cidades">
+        <option value="cidade1" >Cidade</option> 
+        </select>
+        </div>
+
+
+        <div class="info">
+        <input type="submit" value="Cadastrar" id="botao">
+        </div>
+
+    </div>
+
+    
+        
+        
+    </form>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+      </style>
+</body>
+</html>
